@@ -1,5 +1,7 @@
 # Games101 Homework
 
+**已完结**
+
 许久以前就看过101课程，可惜草草了事，纯粹是为了实习求职的功利目的，不成气候。
 
 自觉基础不牢，重新开始把101的作业敲一遍。
@@ -47,3 +49,9 @@ MSAA
 ### 作业7
 
 ![](https://github.com/AiUU1120/Games101_Homework/blob/master/pic/7.png?raw=true)
+
+### 作业8
+
+蓝线半隐式欧拉，绿线显式Verlet方法
+
+![](https://github.com/AiUU1120/Games101_Homework/blob/master/pic/8.gif?raw=true)
