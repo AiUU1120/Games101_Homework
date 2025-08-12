@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Games101_Homework6", "Games
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Games101_Homework7", "Games101_Homework7\Games101_Homework7.vcxproj", "{BE392D9B-7047-4705-AEE5-66ABAEFCBEF7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Games101_Homework8", "Games101_Homework8\Games101_Homework8.vcxproj", "{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -139,6 +141,18 @@ Global
 		{BE392D9B-7047-4705-AEE5-66ABAEFCBEF7}.Release|x64.Build.0 = Release|x64
 		{BE392D9B-7047-4705-AEE5-66ABAEFCBEF7}.Release|x86.ActiveCfg = Release|Win32
 		{BE392D9B-7047-4705-AEE5-66ABAEFCBEF7}.Release|x86.Build.0 = Release|Win32
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Debug|x64.ActiveCfg = Debug|x64
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Debug|x64.Build.0 = Debug|x64
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Debug|x86.Build.0 = Debug|Win32
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Games101|x64.ActiveCfg = Debug|x64
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Games101|x64.Build.0 = Debug|x64
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Games101|x86.ActiveCfg = Debug|Win32
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Games101|x86.Build.0 = Debug|Win32
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Release|x64.ActiveCfg = Release|x64
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Release|x64.Build.0 = Release|x64
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Release|x86.ActiveCfg = Release|Win32
+		{3DE83A26-AB0B-4B22-AF7A-B2C0794C79F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

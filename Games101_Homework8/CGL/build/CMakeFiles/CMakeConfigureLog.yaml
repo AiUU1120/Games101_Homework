@@ -1,0 +1,2143 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/CMake/share/cmake-4.1/Modules/"
+    found: "D:/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+      鐢熸垚鍚姩鏃堕棿涓?2025/8/12 22:46:26銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.38
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/4.1.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.com"
+    found: "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.com"
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "E:/Bandizip/lld-link.com"
+      - "E:/Bandizip/lld-link.exe"
+      - "E:/Bandizip/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/CMake/bin/lld-link.com"
+      - "D:/CMake/bin/lld-link.exe"
+      - "D:/CMake/bin/lld-link"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/AiUU/.dotnet/tools/lld-link.com"
+      - "C:/Users/AiUU/.dotnet/tools/lld-link.exe"
+      - "C:/Users/AiUU/.dotnet/tools/lld-link"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.com"
+    found: "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/mt.com"
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/mt.exe"
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "E:/Bandizip/mt.com"
+      - "E:/Bandizip/mt.exe"
+      - "E:/Bandizip/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "D:/CMake/bin/mt.com"
+      - "D:/CMake/bin/mt.exe"
+      - "D:/CMake/bin/mt"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/AiUU/.dotnet/tools/mt.com"
+      - "C:/Users/AiUU/.dotnet/tools/mt.exe"
+      - "C:/Users/AiUU/.dotnet/tools/mt"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/mt.com"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/mt.exe"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/mt"
+      - "D:/Microsoft VS Code/bin/mt.com"
+      - "D:/Microsoft VS Code/bin/mt.exe"
+      - "D:/Microsoft VS Code/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lib.com"
+    found: "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/CMake/share/cmake-4.1/Modules/"
+    found: "D:/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+      鐢熸垚鍚姩鏃堕棿涓?2025/8/12 22:46:27銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.40
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/4.1.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.com"
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "E:/Bandizip/lld-link.com"
+      - "E:/Bandizip/lld-link.exe"
+      - "E:/Bandizip/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/CMake/bin/lld-link.com"
+      - "D:/CMake/bin/lld-link.exe"
+      - "D:/CMake/bin/lld-link"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/AiUU/.dotnet/tools/lld-link.com"
+      - "C:/Users/AiUU/.dotnet/tools/lld-link.exe"
+      - "C:/Users/AiUU/.dotnet/tools/lld-link"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "D:/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "D:/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/CMake/bin/"
+      - "D:/CMake/sbin/"
+      - "D:/CMake/"
+      - "C:/Program Files (x86)/CGL/bin/"
+      - "C:/Program Files (x86)/CGL/sbin/"
+      - "C:/Program Files (x86)/CGL/"
+    searched_directories:
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "E:/Bandizip/rc.com"
+      - "E:/Bandizip/rc.exe"
+      - "E:/Bandizip/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "D:/CMake/bin/rc.com"
+      - "D:/CMake/bin/rc.exe"
+      - "D:/CMake/bin/rc"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/AiUU/.dotnet/tools/rc.com"
+      - "C:/Users/AiUU/.dotnet/tools/rc.exe"
+      - "C:/Users/AiUU/.dotnet/tools/rc"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/rc.com"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/rc.exe"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/rc"
+      - "D:/Microsoft VS Code/bin/rc.com"
+      - "D:/Microsoft VS Code/bin/rc.exe"
+      - "D:/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/CMake/bin/rc.com"
+      - "D:/CMake/bin/rc.exe"
+      - "D:/CMake/bin/rc"
+      - "D:/CMake/sbin/rc.com"
+      - "D:/CMake/sbin/rc.exe"
+      - "D:/CMake/sbin/rc"
+      - "D:/CMake/rc.com"
+      - "D:/CMake/rc.exe"
+      - "D:/CMake/rc"
+      - "C:/Program Files (x86)/CGL/bin/rc.com"
+      - "C:/Program Files (x86)/CGL/bin/rc.exe"
+      - "C:/Program Files (x86)/CGL/bin/rc"
+      - "C:/Program Files (x86)/CGL/sbin/rc.com"
+      - "C:/Program Files (x86)/CGL/sbin/rc.exe"
+      - "C:/Program Files (x86)/CGL/sbin/rc"
+      - "C:/Program Files (x86)/CGL/rc.com"
+      - "C:/Program Files (x86)/CGL/rc.exe"
+      - "C:/Program Files (x86)/CGL/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CGL"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files (x86)/CGL"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-n1rcpi"
+      binary: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-n1rcpi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-n1rcpi'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_08173.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+        鐢熸垚鍚姩鏃堕棿涓?2025/8/12 22:46:27銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n1rcpi\\cmTC_08173.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_08173.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n1rcpi\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_08173.dir\\Debug\\cmTC_08173.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_08173.dir\\Debug\\cmTC_08173.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_08173.dir\\Debug\\cmTC_08173.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_08173.dir\\Debug\\\\" /Fd"cmTC_08173.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_08173.dir\\Debug\\\\" /Fd"cmTC_08173.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n1rcpi\\Debug\\cmTC_08173.exe" /INCREMENTAL /ILK:"cmTC_08173.dir\\Debug\\cmTC_08173.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-n1rcpi/Debug/cmTC_08173.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-n1rcpi/Debug/cmTC_08173.lib" /MACHINE:X64  /machine:x64 cmTC_08173.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_08173.vcxproj -> D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n1rcpi\\Debug\\cmTC_08173.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_08173.dir\\Debug\\cmTC_08173.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_08173.dir\\Debug\\cmTC_08173.tlog\\cmTC_08173.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n1rcpi\\cmTC_08173.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.46
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-z1mqlh"
+      binary: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-z1mqlh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-z1mqlh'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a3f4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+        鐢熸垚鍚姩鏃堕棿涓?2025/8/12 22:46:28銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mqlh\\cmTC_a3f4e.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a3f4e.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mqlh\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a3f4e.dir\\Debug\\cmTC_a3f4e.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_a3f4e.dir\\Debug\\cmTC_a3f4e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a3f4e.dir\\Debug\\cmTC_a3f4e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_a3f4e.dir\\Debug\\\\" /Fd"cmTC_a3f4e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_a3f4e.dir\\Debug\\\\" /Fd"cmTC_a3f4e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mqlh\\Debug\\cmTC_a3f4e.exe" /INCREMENTAL /ILK:"cmTC_a3f4e.dir\\Debug\\cmTC_a3f4e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-z1mqlh/Debug/cmTC_a3f4e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-z1mqlh/Debug/cmTC_a3f4e.lib" /MACHINE:X64  /machine:x64 cmTC_a3f4e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a3f4e.vcxproj -> D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mqlh\\Debug\\cmTC_a3f4e.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_a3f4e.dir\\Debug\\cmTC_a3f4e.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a3f4e.dir\\Debug\\cmTC_a3f4e.tlog\\cmTC_a3f4e.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mqlh\\cmTC_a3f4e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Microsoft Visual Studio/2022/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/FindFreetype.cmake:106 (find_path)"
+      - "CMakeLists.txt:168 (find_package)"
+    mode: "path"
+    variable: "FREETYPE_INCLUDE_DIR_ft2build"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ft2build.h"
+    candidate_directories:
+      - "C:/Windows/System32/include/freetype2/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/freetype2/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/freetype2/"
+      - "C:/Windows/include/"
+      - "C:/Windows/freetype2/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/freetype2/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/freetype2/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/freetype2/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/freetype2/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/freetype2/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/include/freetype2/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/freetype2/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/include/freetype2/"
+      - "E:/Bandizip/include/"
+      - "E:/Bandizip/freetype2/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/freetype2/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/freetype2/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/include/freetype2/"
+      - "D:/CMake/bin/include/"
+      - "D:/CMake/bin/freetype2/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/include/freetype2/"
+      - "C:/Users/AiUU/.dotnet/tools/include/"
+      - "C:/Users/AiUU/.dotnet/tools/freetype2/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/include/freetype2/"
+      - "D:/Microsoft VS Code/bin/include/"
+      - "D:/Microsoft VS Code/bin/freetype2/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Program Files/include/include/freetype2/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/freetype2/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/freetype2/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/freetype2/"
+      - "C:/Program Files (x86)/"
+      - "D:/CMake/include/include/freetype2/"
+      - "D:/CMake/include/include/"
+      - "D:/CMake/include/freetype2/"
+      - "D:/CMake/include/"
+      - "D:/CMake/include/freetype2/"
+      - "D:/CMake/include/"
+      - "D:/CMake/freetype2/"
+      - "D:/CMake/"
+      - "C:/Program Files (x86)/CGL/include/include/freetype2/"
+      - "C:/Program Files (x86)/CGL/include/include/"
+      - "C:/Program Files (x86)/CGL/include/freetype2/"
+      - "C:/Program Files (x86)/CGL/include/"
+      - "C:/Program Files (x86)/CGL/include/freetype2/"
+      - "C:/Program Files (x86)/CGL/include/"
+      - "C:/Program Files (x86)/CGL/freetype2/"
+      - "C:/Program Files (x86)/CGL/"
+      - "/REGISTRY-NOTFOUND/include/freetype2/"
+      - "/REGISTRY-NOTFOUND/include/"
+      - "/REGISTRY-NOTFOUND/freetype2/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Windows/System32/include/freetype2/ft2build.h"
+      - "C:/Windows/System32/include/ft2build.h"
+      - "C:/Windows/System32/freetype2/ft2build.h"
+      - "C:/Windows/System32/ft2build.h"
+      - "C:/Windows/include/freetype2/ft2build.h"
+      - "C:/Windows/include/ft2build.h"
+      - "C:/Windows/freetype2/ft2build.h"
+      - "C:/Windows/ft2build.h"
+      - "C:/Windows/System32/wbem/include/freetype2/ft2build.h"
+      - "C:/Windows/System32/wbem/include/ft2build.h"
+      - "C:/Windows/System32/wbem/freetype2/ft2build.h"
+      - "C:/Windows/System32/wbem/ft2build.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/ft2build.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/ft2build.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/ft2build.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ft2build.h"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/ft2build.h"
+      - "C:/Windows/System32/OpenSSH/include/ft2build.h"
+      - "C:/Windows/System32/OpenSSH/freetype2/ft2build.h"
+      - "C:/Windows/System32/OpenSSH/ft2build.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/freetype2/ft2build.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/ft2build.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/freetype2/ft2build.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/ft2build.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/ft2build.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ft2build.h"
+      - "C:/Program Files/dotnet/include/freetype2/ft2build.h"
+      - "C:/Program Files/dotnet/include/ft2build.h"
+      - "C:/Program Files/dotnet/freetype2/ft2build.h"
+      - "C:/Program Files/dotnet/ft2build.h"
+      - "E:/Bandizip/include/freetype2/ft2build.h"
+      - "E:/Bandizip/include/ft2build.h"
+      - "E:/Bandizip/freetype2/ft2build.h"
+      - "E:/Bandizip/ft2build.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/ft2build.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ft2build.h"
+      - "D:/CMake/bin/include/freetype2/ft2build.h"
+      - "D:/CMake/bin/include/ft2build.h"
+      - "D:/CMake/bin/freetype2/ft2build.h"
+      - "D:/CMake/bin/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/freetype2/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/freetype2/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/ft2build.h"
+      - "C:/Users/AiUU/.dotnet/tools/include/freetype2/ft2build.h"
+      - "C:/Users/AiUU/.dotnet/tools/include/ft2build.h"
+      - "C:/Users/AiUU/.dotnet/tools/freetype2/ft2build.h"
+      - "C:/Users/AiUU/.dotnet/tools/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/freetype2/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/freetype2/ft2build.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/ft2build.h"
+      - "D:/Microsoft VS Code/bin/include/freetype2/ft2build.h"
+      - "D:/Microsoft VS Code/bin/include/ft2build.h"
+      - "D:/Microsoft VS Code/bin/freetype2/ft2build.h"
+      - "D:/Microsoft VS Code/bin/ft2build.h"
+      - "C:/Program Files/include/include/freetype2/ft2build.h"
+      - "C:/Program Files/include/include/ft2build.h"
+      - "C:/Program Files/include/freetype2/ft2build.h"
+      - "C:/Program Files/include/ft2build.h"
+      - "C:/Program Files/include/freetype2/ft2build.h"
+      - "C:/Program Files/include/ft2build.h"
+      - "C:/Program Files/freetype2/ft2build.h"
+      - "C:/Program Files/ft2build.h"
+      - "C:/Program Files (x86)/include/include/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/include/include/ft2build.h"
+      - "C:/Program Files (x86)/include/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/include/ft2build.h"
+      - "C:/Program Files (x86)/include/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/include/ft2build.h"
+      - "C:/Program Files (x86)/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/ft2build.h"
+      - "D:/CMake/include/include/freetype2/ft2build.h"
+      - "D:/CMake/include/include/ft2build.h"
+      - "D:/CMake/include/freetype2/ft2build.h"
+      - "D:/CMake/include/ft2build.h"
+      - "D:/CMake/include/freetype2/ft2build.h"
+      - "D:/CMake/include/ft2build.h"
+      - "D:/CMake/freetype2/ft2build.h"
+      - "D:/CMake/ft2build.h"
+      - "C:/Program Files (x86)/CGL/include/include/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/CGL/include/include/ft2build.h"
+      - "C:/Program Files (x86)/CGL/include/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/CGL/include/ft2build.h"
+      - "C:/Program Files (x86)/CGL/include/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/CGL/include/ft2build.h"
+      - "C:/Program Files (x86)/CGL/freetype2/ft2build.h"
+      - "C:/Program Files (x86)/CGL/ft2build.h"
+      - "/REGISTRY-NOTFOUND/include/freetype2/ft2build.h"
+      - "/REGISTRY-NOTFOUND/include/ft2build.h"
+      - "/REGISTRY-NOTFOUND/freetype2/ft2build.h"
+      - "/REGISTRY-NOTFOUND/ft2build.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CGL"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files (x86)/CGL"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/FindFreetype.cmake:116 (find_path)"
+      - "CMakeLists.txt:168 (find_package)"
+    mode: "path"
+    variable: "FREETYPE_INCLUDE_DIR_freetype2"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "freetype/config/ftheader.h"
+      - "config/ftheader.h"
+    candidate_directories:
+      - "C:/Windows/System32/include/freetype2/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/freetype2/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/freetype2/"
+      - "C:/Windows/include/"
+      - "C:/Windows/freetype2/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/freetype2/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/freetype2/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/freetype2/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/freetype2/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/freetype2/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/include/freetype2/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/freetype2/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/include/freetype2/"
+      - "E:/Bandizip/include/"
+      - "E:/Bandizip/freetype2/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/freetype2/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/freetype2/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/include/freetype2/"
+      - "D:/CMake/bin/include/"
+      - "D:/CMake/bin/freetype2/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/include/freetype2/"
+      - "C:/Users/AiUU/.dotnet/tools/include/"
+      - "C:/Users/AiUU/.dotnet/tools/freetype2/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/freetype2/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/include/freetype2/"
+      - "D:/Microsoft VS Code/bin/include/"
+      - "D:/Microsoft VS Code/bin/freetype2/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Program Files/include/include/freetype2/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/freetype2/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/freetype2/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/freetype2/"
+      - "C:/Program Files (x86)/"
+      - "D:/CMake/include/include/freetype2/"
+      - "D:/CMake/include/include/"
+      - "D:/CMake/include/freetype2/"
+      - "D:/CMake/include/"
+      - "D:/CMake/include/freetype2/"
+      - "D:/CMake/include/"
+      - "D:/CMake/freetype2/"
+      - "D:/CMake/"
+      - "C:/Program Files (x86)/CGL/include/include/freetype2/"
+      - "C:/Program Files (x86)/CGL/include/include/"
+      - "C:/Program Files (x86)/CGL/include/freetype2/"
+      - "C:/Program Files (x86)/CGL/include/"
+      - "C:/Program Files (x86)/CGL/include/freetype2/"
+      - "C:/Program Files (x86)/CGL/include/"
+      - "C:/Program Files (x86)/CGL/freetype2/"
+      - "C:/Program Files (x86)/CGL/"
+      - "/REGISTRY-NOTFOUND/include/freetype2/"
+      - "/REGISTRY-NOTFOUND/include/"
+      - "/REGISTRY-NOTFOUND/freetype2/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Windows/System32/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/freetype/config/ftheader.h"
+      - "C:/Windows/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/include/freetype/config/ftheader.h"
+      - "C:/Windows/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/freetype/config/ftheader.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/freetype/config/ftheader.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/include/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/freetype/config/ftheader.h"
+      - "E:/Bandizip/include/freetype2/freetype/config/ftheader.h"
+      - "E:/Bandizip/include/freetype/config/ftheader.h"
+      - "E:/Bandizip/freetype2/freetype/config/ftheader.h"
+      - "E:/Bandizip/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/freetype/config/ftheader.h"
+      - "D:/CMake/bin/include/freetype2/freetype/config/ftheader.h"
+      - "D:/CMake/bin/include/freetype/config/ftheader.h"
+      - "D:/CMake/bin/freetype2/freetype/config/ftheader.h"
+      - "D:/CMake/bin/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/.dotnet/tools/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/.dotnet/tools/include/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/.dotnet/tools/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/.dotnet/tools/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/freetype/config/ftheader.h"
+      - "D:/Microsoft VS Code/bin/include/freetype2/freetype/config/ftheader.h"
+      - "D:/Microsoft VS Code/bin/include/freetype/config/ftheader.h"
+      - "D:/Microsoft VS Code/bin/freetype2/freetype/config/ftheader.h"
+      - "D:/Microsoft VS Code/bin/freetype/config/ftheader.h"
+      - "C:/Program Files/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype/config/ftheader.h"
+      - "C:/Program Files/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/freetype/config/ftheader.h"
+      - "D:/CMake/include/include/freetype2/freetype/config/ftheader.h"
+      - "D:/CMake/include/include/freetype/config/ftheader.h"
+      - "D:/CMake/include/freetype2/freetype/config/ftheader.h"
+      - "D:/CMake/include/freetype/config/ftheader.h"
+      - "D:/CMake/include/freetype2/freetype/config/ftheader.h"
+      - "D:/CMake/include/freetype/config/ftheader.h"
+      - "D:/CMake/freetype2/freetype/config/ftheader.h"
+      - "D:/CMake/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/include/freetype2/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/include/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/freetype2/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/freetype/config/ftheader.h"
+      - "C:/Windows/System32/include/freetype2/config/ftheader.h"
+      - "C:/Windows/System32/include/config/ftheader.h"
+      - "C:/Windows/System32/freetype2/config/ftheader.h"
+      - "C:/Windows/System32/config/ftheader.h"
+      - "C:/Windows/include/freetype2/config/ftheader.h"
+      - "C:/Windows/include/config/ftheader.h"
+      - "C:/Windows/freetype2/config/ftheader.h"
+      - "C:/Windows/config/ftheader.h"
+      - "C:/Windows/System32/wbem/include/freetype2/config/ftheader.h"
+      - "C:/Windows/System32/wbem/include/config/ftheader.h"
+      - "C:/Windows/System32/wbem/freetype2/config/ftheader.h"
+      - "C:/Windows/System32/wbem/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/include/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/freetype2/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/config/ftheader.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/freetype2/config/ftheader.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/config/ftheader.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/freetype2/config/ftheader.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/config/ftheader.h"
+      - "C:/Program Files/dotnet/include/freetype2/config/ftheader.h"
+      - "C:/Program Files/dotnet/include/config/ftheader.h"
+      - "C:/Program Files/dotnet/freetype2/config/ftheader.h"
+      - "C:/Program Files/dotnet/config/ftheader.h"
+      - "E:/Bandizip/include/freetype2/config/ftheader.h"
+      - "E:/Bandizip/include/config/ftheader.h"
+      - "E:/Bandizip/freetype2/config/ftheader.h"
+      - "E:/Bandizip/config/ftheader.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/config/ftheader.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/config/ftheader.h"
+      - "D:/CMake/bin/include/freetype2/config/ftheader.h"
+      - "D:/CMake/bin/include/config/ftheader.h"
+      - "D:/CMake/bin/freetype2/config/ftheader.h"
+      - "D:/CMake/bin/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/freetype2/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/include/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/freetype2/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/include/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/config/ftheader.h"
+      - "C:/Users/AiUU/.dotnet/tools/include/freetype2/config/ftheader.h"
+      - "C:/Users/AiUU/.dotnet/tools/include/config/ftheader.h"
+      - "C:/Users/AiUU/.dotnet/tools/freetype2/config/ftheader.h"
+      - "C:/Users/AiUU/.dotnet/tools/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/freetype2/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/include/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/freetype2/config/ftheader.h"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/config/ftheader.h"
+      - "D:/Microsoft VS Code/bin/include/freetype2/config/ftheader.h"
+      - "D:/Microsoft VS Code/bin/include/config/ftheader.h"
+      - "D:/Microsoft VS Code/bin/freetype2/config/ftheader.h"
+      - "D:/Microsoft VS Code/bin/config/ftheader.h"
+      - "C:/Program Files/include/include/freetype2/config/ftheader.h"
+      - "C:/Program Files/include/include/config/ftheader.h"
+      - "C:/Program Files/include/freetype2/config/ftheader.h"
+      - "C:/Program Files/include/config/ftheader.h"
+      - "C:/Program Files/include/freetype2/config/ftheader.h"
+      - "C:/Program Files/include/config/ftheader.h"
+      - "C:/Program Files/freetype2/config/ftheader.h"
+      - "C:/Program Files/config/ftheader.h"
+      - "C:/Program Files (x86)/include/include/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/include/include/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/include/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/include/config/ftheader.h"
+      - "C:/Program Files (x86)/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/config/ftheader.h"
+      - "D:/CMake/include/include/freetype2/config/ftheader.h"
+      - "D:/CMake/include/include/config/ftheader.h"
+      - "D:/CMake/include/freetype2/config/ftheader.h"
+      - "D:/CMake/include/config/ftheader.h"
+      - "D:/CMake/include/freetype2/config/ftheader.h"
+      - "D:/CMake/include/config/ftheader.h"
+      - "D:/CMake/freetype2/config/ftheader.h"
+      - "D:/CMake/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/include/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/include/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/include/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/freetype2/config/ftheader.h"
+      - "C:/Program Files (x86)/CGL/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/include/freetype2/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/include/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/freetype2/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/config/ftheader.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CGL"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files (x86)/CGL"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:69 (find_program)"
+      - "CMakeLists.txt:173 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config.bat"
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Bandizip/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/CMake/bin/"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AiUU/.dotnet/tools/"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/CMake/bin/"
+      - "D:/CMake/sbin/"
+      - "D:/CMake/"
+      - "C:/Program Files (x86)/CGL/bin/"
+      - "C:/Program Files (x86)/CGL/sbin/"
+      - "C:/Program Files (x86)/CGL/"
+    searched_directories:
+      - "C:/Windows/System32/pkg-config.bat.com"
+      - "C:/Windows/System32/pkg-config.bat.exe"
+      - "C:/Windows/System32/pkg-config.bat"
+      - "C:/Windows/System32/pkg-config.com"
+      - "C:/Windows/System32/pkg-config.exe"
+      - "C:/Windows/System32/pkg-config"
+      - "C:/Windows/System32/pkgconf.com"
+      - "C:/Windows/System32/pkgconf.exe"
+      - "C:/Windows/System32/pkgconf"
+      - "C:/Windows/pkg-config.bat.com"
+      - "C:/Windows/pkg-config.bat.exe"
+      - "C:/Windows/pkg-config.bat"
+      - "C:/Windows/pkg-config.com"
+      - "C:/Windows/pkg-config.exe"
+      - "C:/Windows/pkg-config"
+      - "C:/Windows/pkgconf.com"
+      - "C:/Windows/pkgconf.exe"
+      - "C:/Windows/pkgconf"
+      - "C:/Windows/System32/wbem/pkg-config.bat.com"
+      - "C:/Windows/System32/wbem/pkg-config.bat.exe"
+      - "C:/Windows/System32/wbem/pkg-config.bat"
+      - "C:/Windows/System32/wbem/pkg-config.com"
+      - "C:/Windows/System32/wbem/pkg-config.exe"
+      - "C:/Windows/System32/wbem/pkg-config"
+      - "C:/Windows/System32/wbem/pkgconf.com"
+      - "C:/Windows/System32/wbem/pkgconf.exe"
+      - "C:/Windows/System32/wbem/pkgconf"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.bat.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.bat.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.bat"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkgconf.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkgconf.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkgconf"
+      - "C:/Windows/System32/OpenSSH/pkg-config.bat.com"
+      - "C:/Windows/System32/OpenSSH/pkg-config.bat.exe"
+      - "C:/Windows/System32/OpenSSH/pkg-config.bat"
+      - "C:/Windows/System32/OpenSSH/pkg-config.com"
+      - "C:/Windows/System32/OpenSSH/pkg-config.exe"
+      - "C:/Windows/System32/OpenSSH/pkg-config"
+      - "C:/Windows/System32/OpenSSH/pkgconf.com"
+      - "C:/Windows/System32/OpenSSH/pkgconf.exe"
+      - "C:/Windows/System32/OpenSSH/pkgconf"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkg-config.bat.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkg-config.bat.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkg-config.bat"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkg-config.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkg-config.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkg-config"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkgconf.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkgconf.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkgconf"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkg-config.bat.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkg-config.bat.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkg-config.bat"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkg-config.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkg-config.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkg-config"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkgconf.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkgconf.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkgconf"
+      - "C:/Program Files/dotnet/pkg-config.bat.com"
+      - "C:/Program Files/dotnet/pkg-config.bat.exe"
+      - "C:/Program Files/dotnet/pkg-config.bat"
+      - "C:/Program Files/dotnet/pkg-config.com"
+      - "C:/Program Files/dotnet/pkg-config.exe"
+      - "C:/Program Files/dotnet/pkg-config"
+      - "C:/Program Files/dotnet/pkgconf.com"
+      - "C:/Program Files/dotnet/pkgconf.exe"
+      - "C:/Program Files/dotnet/pkgconf"
+      - "E:/Bandizip/pkg-config.bat.com"
+      - "E:/Bandizip/pkg-config.bat.exe"
+      - "E:/Bandizip/pkg-config.bat"
+      - "E:/Bandizip/pkg-config.com"
+      - "E:/Bandizip/pkg-config.exe"
+      - "E:/Bandizip/pkg-config"
+      - "E:/Bandizip/pkgconf.com"
+      - "E:/Bandizip/pkgconf.exe"
+      - "E:/Bandizip/pkgconf"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.bat.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.bat.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.bat"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkgconf.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkgconf.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkgconf"
+      - "D:/CMake/bin/pkg-config.bat.com"
+      - "D:/CMake/bin/pkg-config.bat.exe"
+      - "D:/CMake/bin/pkg-config.bat"
+      - "D:/CMake/bin/pkg-config.com"
+      - "D:/CMake/bin/pkg-config.exe"
+      - "D:/CMake/bin/pkg-config"
+      - "D:/CMake/bin/pkgconf.com"
+      - "D:/CMake/bin/pkgconf.exe"
+      - "D:/CMake/bin/pkgconf"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/pkg-config.bat.com"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/pkg-config.bat.exe"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/pkg-config.bat"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/pkg-config.com"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/pkg-config.exe"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/pkg-config"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/pkgconf.com"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/pkgconf.exe"
+      - "C:/Users/AiUU/AppData/Local/Microsoft/WindowsApps/pkgconf"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/pkg-config.bat.com"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/pkg-config.bat.exe"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/pkg-config.bat"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/pkg-config.com"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/pkg-config.exe"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/pkg-config"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/pkgconf.com"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/pkgconf.exe"
+      - "C:/Users/AiUU/AppData/Local/Programs/Microsoft VS Code/bin/pkgconf"
+      - "C:/Users/AiUU/.dotnet/tools/pkg-config.bat.com"
+      - "C:/Users/AiUU/.dotnet/tools/pkg-config.bat.exe"
+      - "C:/Users/AiUU/.dotnet/tools/pkg-config.bat"
+      - "C:/Users/AiUU/.dotnet/tools/pkg-config.com"
+      - "C:/Users/AiUU/.dotnet/tools/pkg-config.exe"
+      - "C:/Users/AiUU/.dotnet/tools/pkg-config"
+      - "C:/Users/AiUU/.dotnet/tools/pkgconf.com"
+      - "C:/Users/AiUU/.dotnet/tools/pkgconf.exe"
+      - "C:/Users/AiUU/.dotnet/tools/pkgconf"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/pkg-config.bat.com"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/pkg-config.bat.exe"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/pkg-config.bat"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/pkg-config.com"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/pkg-config.exe"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/pkg-config"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/pkgconf.com"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/pkgconf.exe"
+      - "C:/Users/AiUU/AppData/Local/JetBrains/Toolbox/scripts/pkgconf"
+      - "D:/Microsoft VS Code/bin/pkg-config.bat.com"
+      - "D:/Microsoft VS Code/bin/pkg-config.bat.exe"
+      - "D:/Microsoft VS Code/bin/pkg-config.bat"
+      - "D:/Microsoft VS Code/bin/pkg-config.com"
+      - "D:/Microsoft VS Code/bin/pkg-config.exe"
+      - "D:/Microsoft VS Code/bin/pkg-config"
+      - "D:/Microsoft VS Code/bin/pkgconf.com"
+      - "D:/Microsoft VS Code/bin/pkgconf.exe"
+      - "D:/Microsoft VS Code/bin/pkgconf"
+      - "C:/Program Files/bin/pkg-config.bat.com"
+      - "C:/Program Files/bin/pkg-config.bat.exe"
+      - "C:/Program Files/bin/pkg-config.bat"
+      - "C:/Program Files/bin/pkg-config.com"
+      - "C:/Program Files/bin/pkg-config.exe"
+      - "C:/Program Files/bin/pkg-config"
+      - "C:/Program Files/bin/pkgconf.com"
+      - "C:/Program Files/bin/pkgconf.exe"
+      - "C:/Program Files/bin/pkgconf"
+      - "C:/Program Files/sbin/pkg-config.bat.com"
+      - "C:/Program Files/sbin/pkg-config.bat.exe"
+      - "C:/Program Files/sbin/pkg-config.bat"
+      - "C:/Program Files/sbin/pkg-config.com"
+      - "C:/Program Files/sbin/pkg-config.exe"
+      - "C:/Program Files/sbin/pkg-config"
+      - "C:/Program Files/sbin/pkgconf.com"
+      - "C:/Program Files/sbin/pkgconf.exe"
+      - "C:/Program Files/sbin/pkgconf"
+      - "C:/Program Files/pkg-config.bat.com"
+      - "C:/Program Files/pkg-config.bat.exe"
+      - "C:/Program Files/pkg-config.bat"
+      - "C:/Program Files/pkg-config.com"
+      - "C:/Program Files/pkg-config.exe"
+      - "C:/Program Files/pkg-config"
+      - "C:/Program Files/pkgconf.com"
+      - "C:/Program Files/pkgconf.exe"
+      - "C:/Program Files/pkgconf"
+      - "C:/Program Files (x86)/bin/pkg-config.bat.com"
+      - "C:/Program Files (x86)/bin/pkg-config.bat.exe"
+      - "C:/Program Files (x86)/bin/pkg-config.bat"
+      - "C:/Program Files (x86)/bin/pkg-config.com"
+      - "C:/Program Files (x86)/bin/pkg-config.exe"
+      - "C:/Program Files (x86)/bin/pkg-config"
+      - "C:/Program Files (x86)/bin/pkgconf.com"
+      - "C:/Program Files (x86)/bin/pkgconf.exe"
+      - "C:/Program Files (x86)/bin/pkgconf"
+      - "C:/Program Files (x86)/sbin/pkg-config.bat.com"
+      - "C:/Program Files (x86)/sbin/pkg-config.bat.exe"
+      - "C:/Program Files (x86)/sbin/pkg-config.bat"
+      - "C:/Program Files (x86)/sbin/pkg-config.com"
+      - "C:/Program Files (x86)/sbin/pkg-config.exe"
+      - "C:/Program Files (x86)/sbin/pkg-config"
+      - "C:/Program Files (x86)/sbin/pkgconf.com"
+      - "C:/Program Files (x86)/sbin/pkgconf.exe"
+      - "C:/Program Files (x86)/sbin/pkgconf"
+      - "C:/Program Files (x86)/pkg-config.bat.com"
+      - "C:/Program Files (x86)/pkg-config.bat.exe"
+      - "C:/Program Files (x86)/pkg-config.bat"
+      - "C:/Program Files (x86)/pkg-config.com"
+      - "C:/Program Files (x86)/pkg-config.exe"
+      - "C:/Program Files (x86)/pkg-config"
+      - "C:/Program Files (x86)/pkgconf.com"
+      - "C:/Program Files (x86)/pkgconf.exe"
+      - "C:/Program Files (x86)/pkgconf"
+      - "D:/CMake/bin/pkg-config.bat.com"
+      - "D:/CMake/bin/pkg-config.bat.exe"
+      - "D:/CMake/bin/pkg-config.bat"
+      - "D:/CMake/bin/pkg-config.com"
+      - "D:/CMake/bin/pkg-config.exe"
+      - "D:/CMake/bin/pkg-config"
+      - "D:/CMake/bin/pkgconf.com"
+      - "D:/CMake/bin/pkgconf.exe"
+      - "D:/CMake/bin/pkgconf"
+      - "D:/CMake/sbin/pkg-config.bat.com"
+      - "D:/CMake/sbin/pkg-config.bat.exe"
+      - "D:/CMake/sbin/pkg-config.bat"
+      - "D:/CMake/sbin/pkg-config.com"
+      - "D:/CMake/sbin/pkg-config.exe"
+      - "D:/CMake/sbin/pkg-config"
+      - "D:/CMake/sbin/pkgconf.com"
+      - "D:/CMake/sbin/pkgconf.exe"
+      - "D:/CMake/sbin/pkgconf"
+      - "D:/CMake/pkg-config.bat.com"
+      - "D:/CMake/pkg-config.bat.exe"
+      - "D:/CMake/pkg-config.bat"
+      - "D:/CMake/pkg-config.com"
+      - "D:/CMake/pkg-config.exe"
+      - "D:/CMake/pkg-config"
+      - "D:/CMake/pkgconf.com"
+      - "D:/CMake/pkgconf.exe"
+      - "D:/CMake/pkgconf"
+      - "C:/Program Files (x86)/CGL/bin/pkg-config.bat.com"
+      - "C:/Program Files (x86)/CGL/bin/pkg-config.bat.exe"
+      - "C:/Program Files (x86)/CGL/bin/pkg-config.bat"
+      - "C:/Program Files (x86)/CGL/bin/pkg-config.com"
+      - "C:/Program Files (x86)/CGL/bin/pkg-config.exe"
+      - "C:/Program Files (x86)/CGL/bin/pkg-config"
+      - "C:/Program Files (x86)/CGL/bin/pkgconf.com"
+      - "C:/Program Files (x86)/CGL/bin/pkgconf.exe"
+      - "C:/Program Files (x86)/CGL/bin/pkgconf"
+      - "C:/Program Files (x86)/CGL/sbin/pkg-config.bat.com"
+      - "C:/Program Files (x86)/CGL/sbin/pkg-config.bat.exe"
+      - "C:/Program Files (x86)/CGL/sbin/pkg-config.bat"
+      - "C:/Program Files (x86)/CGL/sbin/pkg-config.com"
+      - "C:/Program Files (x86)/CGL/sbin/pkg-config.exe"
+      - "C:/Program Files (x86)/CGL/sbin/pkg-config"
+      - "C:/Program Files (x86)/CGL/sbin/pkgconf.com"
+      - "C:/Program Files (x86)/CGL/sbin/pkgconf.exe"
+      - "C:/Program Files (x86)/CGL/sbin/pkgconf"
+      - "C:/Program Files (x86)/CGL/pkg-config.bat.com"
+      - "C:/Program Files (x86)/CGL/pkg-config.bat.exe"
+      - "C:/Program Files (x86)/CGL/pkg-config.bat"
+      - "C:/Program Files (x86)/CGL/pkg-config.com"
+      - "C:/Program Files (x86)/CGL/pkg-config.exe"
+      - "C:/Program Files (x86)/CGL/pkg-config"
+      - "C:/Program Files (x86)/CGL/pkgconf.com"
+      - "C:/Program Files (x86)/CGL/pkgconf.exe"
+      - "C:/Program Files (x86)/CGL/pkgconf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Bandizip\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\CMake\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\.dotnet\\tools"
+        - "C:\\Users\\AiUU\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\AiUU\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CGL"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files (x86)/CGL"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "D:/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "D:/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "deps/glfw/CMakeLists.txt:95 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-lu0o2b"
+      binary: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-lu0o2b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/cmake/modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-lu0o2b'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e87b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+        鐢熸垚鍚姩鏃堕棿涓?2025/8/12 22:46:28銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\cmTC_e87b7.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e87b7.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e87b7.dir\\Debug\\cmTC_e87b7.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_e87b7.dir\\Debug\\cmTC_e87b7.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_e87b7.dir\\Debug\\cmTC_e87b7.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e87b7.dir\\Debug\\\\" /Fd"cmTC_e87b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e87b7.dir\\Debug\\\\" /Fd"cmTC_e87b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\src.c"
+          src.c
+        D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\cmTC_e87b7.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\cmTC_e87b7.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\cmTC_e87b7.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lu0o2b\\cmTC_e87b7.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "D:/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "deps/glfw/CMakeLists.txt:95 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-03w8j9"
+      binary: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-03w8j9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/cmake/modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-03w8j9'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cb608.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+        鐢熸垚鍚姩鏃堕棿涓?2025/8/12 22:46:29銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03w8j9\\cmTC_cb608.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cb608.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03w8j9\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cb608.dir\\Debug\\cmTC_cb608.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_cb608.dir\\Debug\\cmTC_cb608.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_cb608.dir\\Debug\\cmTC_cb608.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_cb608.dir\\Debug\\\\" /Fd"cmTC_cb608.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03w8j9\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_cb608.dir\\Debug\\\\" /Fd"cmTC_cb608.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03w8j9\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03w8j9\\Debug\\cmTC_cb608.exe" /INCREMENTAL /ILK:"cmTC_cb608.dir\\Debug\\cmTC_cb608.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-03w8j9/Debug/cmTC_cb608.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-03w8j9/Debug/cmTC_cb608.lib" /MACHINE:X64  /machine:x64 cmTC_cb608.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03w8j9\\cmTC_cb608.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03w8j9\\cmTC_cb608.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03w8j9\\cmTC_cb608.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03w8j9\\cmTC_cb608.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "D:/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "deps/glfw/CMakeLists.txt:95 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-w6cfkz"
+      binary: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-w6cfkz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/cmake/modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-w6cfkz'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_51e5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+        鐢熸垚鍚姩鏃堕棿涓?2025/8/12 22:46:29銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w6cfkz\\cmTC_51e5a.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_51e5a.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w6cfkz\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_51e5a.dir\\Debug\\cmTC_51e5a.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_51e5a.dir\\Debug\\cmTC_51e5a.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_51e5a.dir\\Debug\\cmTC_51e5a.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_51e5a.dir\\Debug\\\\" /Fd"cmTC_51e5a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w6cfkz\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_51e5a.dir\\Debug\\\\" /Fd"cmTC_51e5a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w6cfkz\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\Microsoft Visual Studio\\2022\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w6cfkz\\Debug\\cmTC_51e5a.exe" /INCREMENTAL /ILK:"cmTC_51e5a.dir\\Debug\\cmTC_51e5a.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-w6cfkz/Debug/cmTC_51e5a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CMakeFiles/CMakeScratch/TryCompile-w6cfkz/Debug/cmTC_51e5a.lib" /MACHINE:X64  /machine:x64 cmTC_51e5a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w6cfkz\\cmTC_51e5a.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w6cfkz\\cmTC_51e5a.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w6cfkz\\cmTC_51e5a.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\Learn Project\\Games101_Homework\\Games101_Homework8\\CGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w6cfkz\\cmTC_51e5a.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.32
+        
+      exitCode: 1
+...

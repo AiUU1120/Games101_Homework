@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\deps\glew\src\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\deps\glew\src\glewinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\deps\glew\src\visualinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\deps\glew\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FED1B0FC-9AC9-367F-A429-20A86F517750}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

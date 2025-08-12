@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/deps/glfw/src/CMakeLists.txt
+cl : 命令行  warning D9025: 正在重写“/W3”(用“/w”)
+  context.c
+  init.c
+  input.c
+  monitor.c
+  window.c
+  win32_init.c
+  win32_monitor.c
+  win32_time.c
+  win32_tls.c
+  win32_window.c
+  winmm_joystick.c
+  wgl_context.c
+  正在生成代码...
+  glfw.vcxproj -> D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\build\deps\glfw\src\Debug\glfw3.lib

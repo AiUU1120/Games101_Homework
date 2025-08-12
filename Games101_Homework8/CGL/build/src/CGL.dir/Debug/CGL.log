@@ -1,0 +1,48 @@
+﻿cl : 命令行  warning D9002: 忽略未知选项“-std=gnu++0x”
+  vector2D.cpp
+  vector3D.cpp
+  vector4D.cpp
+  matrix3x3.cpp
+  matrix4x4.cpp
+  quaternion.cpp
+  complex.cpp
+  color.cpp
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\color.cpp(17,13): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\color.cpp(47,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\color.cpp(48,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\color.cpp(49,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  osdtext.cpp
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\osdtext.cpp(61,53): warning C4267: “参数”: 从“size_t”转换到“FT_Long”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\osdtext.cpp(185,36): warning C4267: “参数”: 从“size_t”转换到“FT_UInt”，可能丢失数据
+  viewer.cpp
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(128,64): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(128,53): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(127,50): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(127,42): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(130,64): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(130,53): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(129,49): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(129,42): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(133,37): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(133,27): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(182,50): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(182,44): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(182,75): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(182,64): warning C4305: “参数”: 从“double”到“float”截断
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(240,31): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(240,21): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(261,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(262,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(265,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(266,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(274,35): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp(274,26): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  base64.cpp
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\base64.cpp(85,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\base64.cpp(96,44): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\base64.cpp(113,42): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+  tinyxml2.cpp
+  正在生成代码...
+cl : 命令行  warning D9002: 忽略未知选项“-std=gnu++0x”
+  osdfont.c
+  CGL.vcxproj -> D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\build\src\Debug\CGL.lib

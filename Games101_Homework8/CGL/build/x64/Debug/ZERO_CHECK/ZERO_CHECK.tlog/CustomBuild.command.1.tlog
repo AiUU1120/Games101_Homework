@@ -1,0 +1,10 @@
+^D:\LEARN PROJECT\GAMES101_HOMEWORK\GAMES101_HOMEWORK8\CGL\BUILD\CMAKEFILES\1EE036CF70E4CB2821F24701AB17CB4A\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe "-SD:/Learn Project/Games101_Homework/Games101_Homework8/CGL" "-BD:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/build/CGL.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

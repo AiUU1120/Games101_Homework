@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/Learn Project/Games101_Homework/Games101_Homework8/CGL/deps/glew/CMakeLists.txt
+cl : 命令行  warning D9025: 正在重写“/W3”(用“/w”)
+  glew.c
+  glewinfo.c
+  visualinfo.c
+  正在生成代码...
+glewinfo.obj : warning LNK4006: main 已在 visualinfo.obj 中定义；已忽略第二个定义
+  glew.vcxproj -> D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\build\deps\glew\Debug\glew.lib

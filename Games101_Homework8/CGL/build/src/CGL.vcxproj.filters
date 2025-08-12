@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\vector3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\vector4D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\matrix3x3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\matrix4x4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\osdtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\osdfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\CGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\vector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\vector4D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\osdtext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Learn Project\Games101_Homework\Games101_Homework8\CGL\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{EBB9A28C-F661-3500-8F45-DE63BB84E9A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FED1B0FC-9AC9-367F-A429-20A86F517750}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
